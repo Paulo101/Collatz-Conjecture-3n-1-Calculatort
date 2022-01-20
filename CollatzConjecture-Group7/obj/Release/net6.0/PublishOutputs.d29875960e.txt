@@ -1,0 +1,7 @@
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\CollatzConjecture-Group7.exe
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\CollatzConjecture-Group7.dll
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\CollatzConjecture-Group7.deps.json
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\CollatzConjecture-Group7.runtimeconfig.json
+C:\Users\Paulo\source\repos\CollatzConjecture-Group7\CollatzConjecture-Group7\obj\Release\net6.0\PubTmp\Out\CollatzConjecture-Group7.pdb

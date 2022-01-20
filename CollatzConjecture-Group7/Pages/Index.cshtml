@@ -1,0 +1,80 @@
+﻿@using CollatzConjecture_Group7.Model
+@model IndexViewModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+   <div class="card text-center">
+  <div class="card-header">
+    Collatz Conjecture Calculator
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Collatz Conjecture (3n+1) Calculatort</h5>
+    <p class="card-text">Use this handy online tool to calculate and graph the Collatz sequence for a given positive integer n.</p>
+    <div>
+        @if(ViewBag.ValidationSummary != null){
+        <p>@ViewBag.ValidationSummary</p>
+        }
+        <form asp-action="Index" asp-controller="Home" method="post">
+         <div class="form-group">
+           <input asp-for=Number type="tel" placeholder="Enter nth Number...."/>
+           <button type="submit" class="btn btn-outline-primary">Calculate <i class="fa fa-telegram"></i></button>
+         </div>
+         </form>
+
+    </div>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+
+   <div class="card text-center">
+  <div class="card-header">
+   
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Results</h5>
+    <p class="card-text">Use this handy online tool to calculate and graph the Collatz sequence for a given positive integer n.</p>
+    <div>
+       <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Catagory</th>
+      <th scope="col">Results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Number Provided</td>
+      <td>@Model.Number</td>
+    </tr>
+    <tr>
+      <td>Total Steps</td>
+      <td>@Model.Steps</td>
+    </tr>
+    <tr>
+      <td>Collatz Sequence</td>
+                            <td>@if (Model.Sequence.Count() > 0)
+                                {
+                                   @foreach (var item in Model.Sequence)
+                                   {
+                                       @item
+                                   }
+                                }
+                            </td>
+                        </tr>
+     <tr>
+      <td>Max Value</td>
+      <td>the Bird</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+
+</div>
