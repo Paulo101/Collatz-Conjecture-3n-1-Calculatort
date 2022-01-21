@@ -8,3 +8,7 @@ In this repo are files to the solution solved in asp.net core.
 Use this link to access a live version of the app: https://collatzconjecture-group7.azurewebsites.net/
 
 MIT License attached.
+
+Languages used: 
+Backend - C#
+FrontEnd - Html, CSS, JQuery (Bootstrap).
